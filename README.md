@@ -1,4 +1,5 @@
 ### 👋 Hi, I’m Joy Saha  
+**Founder & CEO @ Shoppers.AI (Your Personal Shopping AI Agent)**  
 **AI Engineer | PhD Student in Computational Science @ UTEP**  
 Building intelligent systems that combine **Machine Learning, Scientific Computing, and Optimization**.
 
