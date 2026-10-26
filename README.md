@@ -1,65 +1,96 @@
-### 👋 Hi, I’m Joy Saha  
-**Founder & CEO @ Shoppers.AI (Your Personal Shopping AI Agent)**  
-**AI Engineer | PhD Student in Computational Science @ UTEP**  
-Building intelligent systems that combine **Machine Learning, Scientific Computing, and Optimization**.
+### 👋 Hi, I'm Joy Saha
+
+**PhD Student in Computational Science @ UTEP | Founder & CEO @ Shoppers.AI**
+
+I build machine learning systems for scientific data and real-world products: data pipelines, model training, and careful evaluation.
+
+🔎 **Open to Summer 2027 Machine Learning internships.**
 
 ---
 
 ## 🚀 About Me
-- 🎓 PhD student specializing in **Deep Learning, FEM, PDE Solvers, and HPC**  
-- 🤖 Passionate about **Scientific Machine Learning (SciML)** and **Optimization Algorithms**  
-- 💡 Love turning complex mathematical models into fast and scalable ML solutions  
-- 🧮 Experience with **DLRA, FEM/PDE solvers, numerical methods, and HPC workflows**  
-- 🤝 Open to collaborations in AI, ML research, and scientific computing projects  
+
+- 🎓 PhD student at The University of Texas at El Paso (expected May 2028), advised by Dr. Peimeng Yin
+- 🤖 I work on **machine learning, deep learning, and LLMs** (fine-tuning with LoRA/QLoRA, RAG, LLM evaluation)
+- 🧮 My research makes large scientific simulations **much faster** using low-rank methods and ML
+- 🏭 2.5 years of industry experience as a **Data & ML Solutions Engineer** (forecasting, ETL pipelines)
+- 🤝 Open to collaborations in AI, ML research, and scientific computing
 
 ---
 
 ## 🔬 Featured Projects
 
-### 🔵 **NeuralFEM-Poisson-Surrogate**  
-*Deep-learning surrogate model to approximate FEM solutions for the 2D Poisson equation*  
-- Built PyTorch models to predict FEM approximations  
-- Faster inference with <5% relative error  
-- Includes dataset, model, trainer, and visualization pipeline  
+### ⚛️ Accelerating GW Calculations with ML
+*ML surrogate models for the polarizability χ⁰, trained on 20 GB of BerkeleyGW HDF5 data*
+- Compared a Transformer encoder, a feed-forward neural network, and gradient-boosted trees
+- Built the full pipeline: data curation, feature engineering, training, and benchmarking
+- About **18× mean gain** over the baseline
 
-🔗 Repo: [NeuralFEM-Poisson-Surrogate](https://github.com/joysaha02/NeuralFEM-Poisson-Surrogate)
+🔗 Repo: [Accelerating_GW_with_ML](https://github.com/joysaha02/Accelerating_GW_with_ML) *(code coming soon)*
 
 ---
 
-### 🟣 **ML-VRP Optimization**  
-*Machine learning–assisted Vehicle Routing Problem solver for logistics companies*  
-- Integrates clustering, 2-Opt, neural scoring models  
-- Achieved 12–18% shorter routes vs baseline heuristics  
-- Complete code for clustering, local search, scoring model, and route visualization  
+### 📐 Fast Solvers for Low-Rank PDE Simulation (Thesis)
+*Low-cost non-iterative Sylvester solvers for dynamical low-rank approximation of reaction-diffusion equations*
+- Cut simulation time from **2–4 days to under 2 hours** (up to **81× faster** than the full-rank solver)
+- Tested across Dirichlet, Neumann, and periodic boundary conditions
+
+📄 Paper: [arXiv:2610.18419](https://arxiv.org/abs/2610.18419)
+
+---
+
+### 🚚 ML-VRP Optimization
+*Machine-learning-assisted vehicle routing with capacity and time windows (CVRPTW)*
+- Combines K-Means clustering, an MLP route scorer, and 2-Opt local search
+- **12–18% shorter routes** and **20% better route compliance** than baseline heuristics
 
 🔗 Repo: [ML-VRP-Optimization](https://github.com/joysaha02/ML-VRP-Optimization)
 
 ---
 
+### 🌐 English → Spanish Transformer
+*A Transformer built from scratch in PyTorch, based on "Attention Is All You Need"*
+- 6 encoder + 6 decoder layers, 8 heads, ~90M parameters
+- Trained on 93,470 sentence pairs (OPUS Books) on an RTX 5090 in ~2.5 hours
+
+🔗 Repo: [Machine_Translation_En_Es](https://github.com/joysaha02/Machine_Translation_En_Es)
+
+---
+
+### 🛍️ Shoppers.AI
+*An AI personal shopping agent used by about 15,000 people*
+- Available as a Chrome extension, WhatsApp bot, and Telegram bot
+- FastAPI microservices backend (AI agent, price comparison, coupons)
+
+🔗 Website: [joysaha02.github.io/shoppers-ai](https://joysaha02.github.io/shoppers-ai/)
+
+---
+
+### 🔵 NeuralFEM Poisson Surrogate
+*A PyTorch surrogate model that approximates FEM solutions of the 2D Poisson equation*
+- Less than **5% relative error** on test fields, with faster inference than a full FEM solve
+
+🔗 Repo: [NeuralFEM-Poisson-Surrogate](https://github.com/joysaha02/NeuralFEM-Poisson-Surrogate)
+
+---
+
 ## 🧠 Technical Skills
 
-### **Programming & ML**
-- Python • PyTorch • TensorFlow • NumPy • Pandas  
-- Machine Learning • Deep Learning • CNNs • RNNs  
-- PySpark • SQL
+**Languages & Frameworks:** Python • PyTorch • TensorFlow • Scikit-learn • HuggingFace • SQL • CUDA • MATLAB • C++
 
-### **Scientific Computing**
-- FEM • PDE Solvers • Numerical Methods  
-- High Performance Computing (HPC)
+**LLMs & AI Agents:** Fine-tuning (LoRA/QLoRA) • RAG • Tool Calling • Agentic AI • LLM Evaluation
 
-### **Software & Tools**
-- Git • Linux • VS Code • Jupyter  
-- MATLAB • C++  
+**Machine Learning:** Transformers • CNNs • RNNs • Gradient Boosting • Time-Series Forecasting • Model Evaluation
+
+**Data & MLOps:** Data Pipelines • ETL • HDF5 • FastAPI • Docker • MLflow • AWS • Git • Linux
+
+**Scientific Computing:** FEM/DG Methods • Low-Rank Approximation (DLRA) • Numerical Linear Algebra • HPC
 
 ---
 
 ## 📫 Contact
 
-- 📍 El Paso, TX, USA  
-- 💼 LinkedIn: https://linkedin.com/in/joysahaa02  
-- 🐙 GitHub: https://github.com/joysaha02  
-- 📧 Email: joysaha0207@gmail.com
-
----
-
-### ⭐ *If you find my work useful, consider giving a star to my repositories!*  
+- 📍 El Paso, TX, USA
+- 💼 LinkedIn: [linkedin.com/in/joysaha02](https://linkedin.com/in/joysaha02)
+- 📧 Email: jsaha@miners.utep.edu
+- 📄 Paper: [arXiv:2610.18419](https://arxiv.org/abs/2610.18419)
