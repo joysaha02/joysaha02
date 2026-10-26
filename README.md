@@ -4,7 +4,7 @@
 
 I build machine learning systems for scientific data and real-world products: data pipelines, model training, and careful evaluation.
 
-🔎 **Open to Summer 2027 Machine Learning internships.**
+🔎 **Open to Summer 2027 internships.**
 
 ---
 
